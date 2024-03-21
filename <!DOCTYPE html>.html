@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+
+        /* Additional CSS Styles */
+
+        /* Form Styles */
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        blockquote {
+            font-style: italic;
+            margin: 0;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #f8f9fa;">
+            <h1 style="margin: 0; color: #6c757d;">Tayyaba Anum</h1>
+            <nav>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 20px;">
+                    <li><a href="#home" style="text-decoration: none; color: #6c757d;">Home</a></li>
+                    <li><a href="#about" style="text-decoration: none; color: #6c757d;">About</a></li>
+                    <li><a href="#services" style="text-decoration: none; color: #6c757d;">Services</a></li>
+                    <li><a href="#contact" style="text-decoration: none; color: #6c757d;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <main>
+        <!-- Quotations -->
+        <section id="quotes" style="background-color: #f8f9fa; padding: 20px;">
+            <h2 style="text-align: center; color: #6c757d;">Famous Quotes</h2>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                <blockquote style="width: 40%; border-left: 5px solid #6c757d; padding: 10px; margin: 20px; text-align: justify;">
+                    "The only way to do great work is to love what you do." <cite style="display: block; text-align: right; color: #6c757d;">- Steve Jobs</cite>
+                </blockquote>
+                <blockquote style="width: 40%; border-left: 5px solid #6c757d; padding: 10px; margin: 20px; text-align: justify;">
+                    "In the end, it's not the years in your life that count. It's the life in your years." <cite style="display: block; text-align: right; color: #6c757d;">- Abraham Lincoln</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    
+       <!-- Forms -->
+<section id="forms">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+
+<section id="tables" style="padding: 20px;">
+    <h2 style="text-align: center; color: #6c757d;">Information</h2>
+    <div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <!-- First Row -->
+        <div class="card" style="margin: 10px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
+            <div class="card-body" style="padding: 20px; border-top: 3px solid #6c757d;">
+                <h3 style="margin-bottom: 10px;">Ayesha Tehreem </h3>
+                <p style="margin-bottom: 5px;">Roll Number: 210956</p>
+                <p style="margin-bottom: 0;">Section: BSCS-VI-A</p>
+            </div>
+        </div>
+        <!-- Second Row -->
+        <div class="card" style="margin: 10px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
+            <div class="card-body" style="padding: 20px; border-top: 3px solid #6c757d;">
+                <h3 style="margin-bottom: 10px;">Eesha Faisal</h3>
+                <p style="margin-bottom: 5px;">Roll Number: 210902</p>
+                <p style="margin-bottom: 0;">Section: BSCS-VI-A</p>
+            </div>
+        </div>
+        <!-- Third Row -->
+        <div class="card" style="margin: 10px; background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
+            <div class="card-body" style="padding: 20px; border-top: 3px solid #6c757d;">
+                <h3 style="margin-bottom: 10px;">Maidha Jan </h3>
+                <p style="margin-bottom: 5px;">Roll Number: 210941</p>
+                <p style="margin-bottom: 0;">Section: BSCS-VI-A</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        
+        
+
+        <section id="links">
+            <h2>Links</h2>
+            <div class="card-container">
+                <!-- Air University Link -->
+                <div class="card">
+                    <div class="card-body">
+                        <a href="https://www.au.edu.pk">
+                            <h3>Air University</h3>
+                            <p>Visit Air University website</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- GitHub Link -->
+                <div class="card">
+                    <div class="card-body">
+                        <a href="https://www.github.com/tayyabaanum7911">
+                            <h3>GitHub</h3>
+                            <p>Visit GitHub profile</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        
+        <ul>
+            <li>Made by Tayyaba Anum  roll no 210977, BSCS</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
